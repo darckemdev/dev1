@@ -31,7 +31,7 @@ function scrollActive(){
 
     sections.forEach(current =>{
         const sectionHeight = current.offsetHeight,
-              sectionTop = current.offsetTop - 50,
+              sectionTop = current.offsetTop - 58,
               sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
@@ -90,24 +90,50 @@ themeButton.addEventListener('click', () => {
 })
 
 /*=============== NEW SWIPER ===============*/
-let swiperDirectorio = new Swiper(".directorio_container", {
+let directorioSwiper = new Swiper(".directorio-swiper", {
     spaceBetween: 24,
-    loop: true,
-    grabCursor: true,
+    loop: 'true',
+    slidesPerView: 'auto',
+    // centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     pagination: {
-        el: ".directorio_pagination",
-        clickable: true,
+        el: ".swiper-pagination",
+        dynamicBullets: 'true'
+        // clickable: true,
     },
 
     breakpoints: {
+        
         576: {
+          spaceBetween: 24,
           slidesPerView: 2,
         },
-        768: {
+        968: {
+          spaceBetween: 24,
           slidesPerView: 3,
         },
-        1024: {
-          slidesPerView: 4,
-        },
     },
+});
+
+
+let swiperHome = new Swiper(".swiperHome", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+  // effect: "fade",
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
 });

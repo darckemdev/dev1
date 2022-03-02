@@ -19,7 +19,7 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav_logo">Fundación Líderes para la Democracia</a>
+                <a href="#" class="nav_logo">FULID</a>
 
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list">
@@ -30,10 +30,13 @@
                             <a href="#about" class="nav_link">MISION</a>
                         </li>
                         <li class="nav_item">
-                            <a href="#services" class="nav_link">VISION</a>
+                            <a href="#vision" class="nav_link">VISION</a>
                         </li>
                         <li class="nav_item">
-                            <a href="#contact" class="nav_link">DIRECTORIO</a>
+                            <a href="#proyectos" class="nav_link">PROYECTOS</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#directorio" class="nav_link">DIRECTORIO</a>
                         </li>
 
                         <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
@@ -44,22 +47,31 @@
                     <i class='bx bx-grid-alt'></i>
                 </div>
 
-                <!-- <a href="#" class="button button_header">Order Now!</a> -->
+                <a href="#" class="button button_header">Aula Virutual</a>
             </nav>
         </header>
 
         <main class="main">
             <!--=============== HOME ===============-->
-            <section class="home section" id="home">
+            <section class="home" id="home">
                 <div class="home_container container grid">
+                    <!-- <img class="svg_img svg_color home_img" src="assets/img/logo-removebg-preview.png" alt="Fundación Líderes para la Democracia"> -->
+                    <div class="home_img">
+                        <div class="swiper swiperHome">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="assets/img/Shared goals-bro.svg" alt="logo">
+                                <img class="swiper-slide" src="assets/img/Design team-bro.svg" alt="logo">
+                                <img class="swiper-slide" src="assets/img/Team spirit-bro.svg" alt="logo">
+                            </div>
+                        </div>
 
-                    <img class="svg_img svg_color home_img" src="assets/img/logo-removebg-preview.png" alt="Fundación Líderes para la Democracia">
+                    </div>
 
                     <div class="home_data">
                         <h1 class="home_title">Fundación Líderes <br> para la Democracia</h1>
                         <p class="home_description">Order your favorite foods at any time and we will deliver them right to where you are.</p>
 
-                        <a href="#" class="button">Get Started</a>
+                        <!-- <a href="#" class="button">Get Started</a> -->
 
                     </div>   
                 </div>
@@ -122,7 +134,7 @@
             </section>
 
             <!--=============== SECURITY ===============-->
-            <section class="security section container">
+            <section class="security section container" id="vision">
                 <div class="security_container grid">
                     <div class="security_data">
                         <h2 class="section_title-center">Visión</h2>
@@ -186,7 +198,7 @@
             </section>
 
             <!--=============== SERVICES ===============-->
-            <section class="services section container" id="services">
+            <section class="services section container" id="proyectos">
                 <h2 class="section_title">Proyectos</h2>
                 <div class="services_container grid">
                     <div class="services_data">
@@ -985,48 +997,127 @@
             </section>
 
             <!--=============== APP ===============-->
-            <section class="app section container new" id="new">
+            <section class="directorio section container" id="directorio">
                 <h2 class="section_title">Directorio</h2>
-                <div class="directorio_container container swiper">
-                    <div class="swiper-wrapper">
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
+                <div class="directorio_container">
+                    <div class="swiper directorio-swiper">
+                        <div class="swiper-wrapper">
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Limdbergh Alvaro Ulloa Balcazar</a><br>
+                                    <span class="directorio_cargo">Presidente Ejecutivo</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Victor Fernando Dorado Duran</a><br>
+                                    <span class="directorio_cargo">Primer Vicepresidente</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Victor Wilfredo Chugar Zubieta</a><br>
+                                    <span class="directorio_cargo">Segundo Vicepresidente</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Daniel Rolando Alvarez Bernal</a><br>
+                                    <span class="directorio_cargo">Secretario General</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Javier Hernandez Serrano</a><br>
+                                    <span class="directorio_cargo">Tesorero</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Pedro Avelino Cabrera</a><br>
+                                    <span class="directorio_cargo">Secretario de Comunicación</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Sergio Daners Antelo Mansilla</a><br>
+                                    <span class="directorio_cargo">Secretario de Planificación</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Maria Magdalena Cabrera Medina</a><br>
+                                    <span class="directorio_cargo">Secretario de Vinculación Institucional</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Brendan Paul Lujan Murillo</a><br>
+                                    <span class="directorio_cargo">Secretario de Desarrollo de TIC's</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Javier Justiniano Justiniano</a><br>
+                                    <span class="directorio_cargo">Secretario de Organización y Sistematización</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Maria Gaby Balcazar Rossell</a><br>
+                                    <span class="directorio_cargo">Secretario de Educación y Cultura</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Juan Miguel Zambrana</a><br>
+                                    <span class="directorio_cargo">Vocal</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Dickson Lujan Murillo</a><br>
+                                    <span class="directorio_cargo">Vocal</span>
+                                </div>
+                            </article>
+
+                            <article class="directorio_card swiper-slide">
+                                <div class="directorio_overlay">
+                                    <img src="assets/img/profile.png" alt="" class="directorio_img"><br>
+                                    <a href="" class="button button-link directorio_name">Waldo Villegas Mendivil</a><br>
+                                    <span class="directorio_cargo">Vocal</span>
+                                </div>
+                            </article>
+
                         </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
-                        <div class="directorio_card swiper-slide">
-                            <img src="assets/img/profile.png" alt="">
-                            <h2 class="center">Jhon Doe</h2>
-                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <div class="directorio_pagination center"></div>
                 </div>
             </section>
 

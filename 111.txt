@@ -1,0 +1,78 @@
+<section class="app section container new" id="new">
+                <h2 class="section_title">Directorio</h2>
+                <div class="directorio_container container swiper grid">
+                    <div class="swiper-wrapper">
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Limdbergh Alvaro Ulloa Balcazar</h3>
+                            <span class="cargo">Presidente Ejecutivo</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Victor Fernando Dorado Duran</h3>
+                            <span class="cargo">Primer Vicepresidente</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Victor Wilfredo Chugar Zubieta</h3>
+                            <span class="cargo">Segundo Vicepresidente</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Daniel Rolando Alvarez Bernal</h3>
+                            <span class="cargo">Secretario General</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Javier Hernandez Serrano</h3>
+                            <span class="cargo">Tesorero</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Pedro Avelino Cabrera</h3>
+                            <span class="cargo">Secretario de Comunicación</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Sergio Daners Antelo Mansilla</h3>
+                            <span class="cargo">Secretario de Planificación</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_name">Maria Magdalena Cabrera Medina</h3>
+                            <span class="cargo">Secretario de Vinculación Institucional</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_names">Brendan Paul Lujan Murillo</h3>
+                            <span class="cargo">Secretario de Desarrollo de TIC's</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_names">Javier Justiniano Justiniano</h3>
+                            <span class="cargo">Secretario de Organización y Sistematización</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_names">Maria Gaby Balcazar Rossell</h3>
+                            <span class="cargo">Secretario de Educación y Cultura</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_names">Juan Miguel Zambrana</h3>
+                            <span class="cargo">Vocal</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class=" directorio_names">Dickson Lujan Murillo</h3>
+                            <span class="cargo">Vocal</span>
+                        </div>
+                        <div class="directorio_card swiper-slide">
+                            <img class="directorio_img" src="assets/img/profile.png" alt="">
+                            <h3 class="directorio_names">Waldo Villegas Mendivil</h3>
+                            <span class="cargo">Vocal</span>
+                        </div>
+                    </div>
+                    <div class="directorio_pagination center"></div>
+                </div>
+            </section>
